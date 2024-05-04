@@ -10,7 +10,9 @@
 - **Understanding the problem domain**: To identify Bounded Contexts, it's essential to understand the problem domain and the subdomains within it. Each subdomain may have its own set of concepts, rules, and relationships.
 - **Context mapping**: Context mapping is the process of identifying the relationships and interactions between different Bounded Contexts. It helps define how the contexts communicate and exchange information with each other.
 
-## Event Storming (Alberto Brandolini is the Inventor and creator of EventStorming and the EventStorming Workshop. Paul Rayner is an expert and published author on EventStorming. You can find the books, workshops and other resources provided by Alberto and Paul in the Resources section.)
+## Event Storming 
+(Alberto Brandolini is the Inventor and creator of EventStorming and the EventStorming Workshop. Paul Rayner is an expert and published author on EventStorming. You can find the books, workshops and other resources provided by Alberto and Paul in the Resources section.)
+
 - **Definition**: Event Storming is a lightweight, rapid learning collaborative workshop technique that brings together domain experts and development teams to explore and model the domain. It focuses on identifying and visualizing the key domain events, entities, and processes.
 - **Process**: During an Event Storming session, participants gather around a large wall or board and use sticky notes to represent domain events. They collaboratively identify the events that occur within the domain, the entities involved, and the processes that trigger or react to those events.
 - **Benefits**: Event Storming helps in quickly gaining a shared understanding of the domain, uncovering hidden complexities, and identifying potential Bounded Contexts. It promotes collaboration and aligns the team towards a common vision of the domain.
