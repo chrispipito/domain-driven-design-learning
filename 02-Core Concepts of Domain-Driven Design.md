@@ -28,7 +28,7 @@ Relation to DDD: EventStorming is often used as a precursor to applying DDD prin
 - **Characteristics**: Value Objects are immutable, meaning their state cannot be changed once they are created. They are typically small, simple objects that represent a concept or a value in the domain.
 
 ## Aggregates
-- **Definition**: Aggregates are cluster of domain objects (Entities and Value Objects) that are treated as a single unit for data changes and consistency. They define a consistency boundary within which invariants are maintained.
+- **Definition**: Aggregates are a cluster of domain objects (Entities and Value Objects) that are treated as a single unit for data changes and consistency. They define a consistency boundary within which invariants are maintained.
 - **Aggregate Root**: The Aggregate Root is the entry point and the only member of an Aggregate that can be directly accessed from outside the Aggregate. It is responsible for ensuring the integrity and consistency of the Aggregate.
 
 ## Domain Events
