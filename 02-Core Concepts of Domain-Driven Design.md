@@ -3,7 +3,7 @@
 ## Ubiquitous Language
 - **Definition**: Ubiquitous Language is a shared language that is developed collaboratively by the domain experts and technical experts. It is used consistently throughout the creation and modification of a software product, in conversations, documentation, and code.
 - **Importance**: Ubiquitous Language helps bridge the communication gap between domain experts and techical experts. It ensures that everyone has a clear and consistent understanding of the domain concepts, reducing misunderstandings and ambiguity.
-- **Collaboration**: Creating a Ubiquitous Language involves close collaboration between domain experts and technical experts. It requires iterative refinement and continuous feedback to ensure that the language accurately represents the domain. The first occurrence of this collaboration is often in the form of an EventStorming session.
+- **Collaboration**: Creating a Ubiquitous Language involves close collaboration between domain experts and technical experts. It requires iterative refinement and continuous feedback to ensure that the language accurately represents the domain. The first occurrence of this collaboration is often in the form of an EventStorming session. (See EventStorming below)
 
 ## Bounded Contexts
 - **Definition**: A Bounded Context is a specific area of the domain that has its own Ubiquitous Language and a clear boundary. It represents a logical boundary within which a particular model is defined and applicable.
@@ -11,7 +11,7 @@
 
 ## Context Mapping
 - **Definition**: Context Mapping is the process of identifying and defining the relationships and interactions between different Bounded Contexts within a domain. It helps in understanding how the contexts relate to each other, how they communicate, and how they collaborate to fulfill the overall business goals.
-Importance: In a complex domain, there are often multiple Bounded Contexts that need to interact and exchange information. Context Mapping helps in establishing a clear understanding of these relationships, enabling effective communication and integration between the contexts.
+- **Importance**: In a complex domain, there are often multiple Bounded Contexts that need to interact and exchange information. Context Mapping helps in establishing a clear understanding of these relationships, enabling effective communication and integration between the contexts.
 
 - **Relationship Patterns**: Context Mapping defines several common patterns for representing the relationships between Bounded Contexts. These patterns include:
   - **Partnership**: Two or more Bounded Contexts have a cooperative relationship and closely collaborate to fulfill a common goal. They share a subset of their domain models and align their development efforts.
@@ -21,6 +21,13 @@ Importance: In a complex domain, there are often multiple Bounded Contexts that 
   - **Anticorruption Layer**: A Bounded Context uses an Anticorruption Layer to protect its own domain model from the influence of other contexts. The layer translates and adapts the external models and services to fit the internal domain model.
   - **Open Host Service**: A Bounded Context provides a set of open interfaces or services that other contexts can consume. The services are designed to be generic and reusable, allowing multiple contexts to integrate with them.
   - **Published Language**: A Bounded Context defines a published language, such as a domain-specific language (DSL) or a set of APIs, that other contexts can use to communicate with it. The published language encapsulates the context's domain model and provides a stable interface for integration.
+
+- **Upstream and Downstream Relationships**:
+- **Importance**: Identifying the upstream and downstream relationships during Context Mapping helps in understanding the flow of dependencies and the impact of changes. It guides the design and evolution of the system by highlighting which contexts have more influence and which contexts need to adapt to changes in their dependencies. When defining the relationships between Bounded Contexts, it's important to consider the direction of influence and the level of coupling. Upstream contexts should strive for stability and backward compatibility to minimize the impact on downstream contexts. Downstream contexts should be designed to handle changes in the upstream and have mechanisms in place to adapt to evolving interfaces and contracts.
+  - **Upstream Context**: An upstream Bounded Context is one that influences or provides services to another context. It is the source of dependencies and has control over the contracts and interfaces exposed to downstream contexts. Upstream contexts are typically more stable and have a higher level of autonomy.
+  - **Downstream Context**: A downstream Bounded Context is one that depends on or consumes the services provided by an upstream context. It is influenced by the upstream context and needs to adapt to the contracts and interfaces exposed by the upstream. Downstream contexts are more susceptible to changes in the upstream and have less control over their dependencies.
+
+
 
 
 - **Integration Strategies**: Context Mapping also involves defining the integration strategies between Bounded Contexts. These strategies determine how the contexts exchange data and invoke each other's services. Common integration strategies include:
