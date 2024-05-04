@@ -1,9 +1,9 @@
 # Core Concepts of Domain-Driven Design
 
 ## Ubiquitous Language
-- **Definition**: Ubiquitous Language is a shared language that is developed collaboratively by the domain experts and the development team. It is used consistently throughout the project, in conversations, documentation, and code.
-- **Importance**: Ubiquitous Language helps bridge the communication gap between domain experts and developers. It ensures that everyone has a clear and consistent understanding of the domain concepts, reducing misunderstandings and ambiguity.
-- **Collaboration**: Creating a Ubiquitous Language involves close collaboration between domain experts and developers. It requires iterative refinement and continuous feedback to ensure that the language accurately represents the domain.
+- **Definition**: Ubiquitous Language is a shared language that is developed collaboratively by the domain experts and the development team. It is used consistently throughout the creation and modification of a software product, in conversations, documentation, and code.
+- **Importance**: Ubiquitous Language helps bridge the communication gap between domain experts and techical experts. It ensures that everyone has a clear and consistent understanding of the domain concepts, reducing misunderstandings and ambiguity.
+- **Collaboration**: Creating a Ubiquitous Language involves close collaboration between domain experts and technical experts. It requires iterative refinement and continuous feedback to ensure that the language accurately represents the domain.
 
 ## Bounded Contexts
 - **Definition**: A Bounded Context is a specific area of the domain that has its own Ubiquitous Language and a clear boundary. It represents a logical boundary within which a particular model is defined and applicable.
@@ -11,16 +11,16 @@
 - **Context mapping**: Context mapping is the process of identifying the relationships and interactions between different Bounded Contexts. It helps define how the contexts communicate and exchange information with each other.
 
 ## Event Storming 
-(Alberto Brandolini is the Inventor and creator of EventStorming and the EventStorming Workshop. Paul Rayner is an expert and published author on EventStorming. You can find the books, workshops and other resources provided by Alberto and Paul in the Resources section.)
+(Alberto Brandolini is the inventor and creator of EventStorming and the EventStorming Workshop. Paul Rayner is an expert and published author on EventStorming. You can find books, workshops and other resources provided by Alberto and Paul in the Resources section.)
 
-- **Definition**: Event Storming is a lightweight, rapid learning collaborative workshop technique that brings together domain experts and development teams to explore and model the domain. It focuses on identifying and visualizing the key domain events, entities, and processes.
-- **Process**: During an Event Storming session, participants gather around a large wall or board and use sticky notes to represent domain events. They collaboratively identify the events that occur within the domain, the entities involved, and the processes that trigger or react to those events.
-- **Benefits**: Event Storming helps in quickly gaining a shared understanding of the domain, uncovering hidden complexities, and identifying potential Bounded Contexts. It promotes collaboration and aligns the team towards a common vision of the domain.
-- **Outcomes**: The outcomes of an Event Storming session include a visual representation of the domain, identification of key events, entities, and processes, and a better understanding of the relationships and interactions within the domain.
-Relation to DDD: Event Storming is often used as a precursor to applying DDD principles. It helps in discovering and defining Bounded Contexts, identifying Aggregates, and understanding the flow of Domain Events. The insights gained from Event Storming sessions can inform the creation of a more refined and accurate domain model.
+- **Definition**: EventStorming is a lightweight, rapid learning collaborative workshop that brings together domain experts and technical experts to explore and model the domain. It focuses on identifying and visualizing the key domain events, entities, and processes.
+- **Process**: During an EventStorming session, participants gather around a large wall or board and use sticky notes to represent domain events. They collaboratively identify the events that occur within the domain, the entities involved, and the processes that trigger or react to those events.
+- **Benefits**: Event Storming helps in quickly gaining a shared understanding of the domain, uncovering hidden complexities, and identifying potential Bounded Contexts. It promotes collaboration and alignment towards a common vision of the domain.
+- **Outcomes**: The outcomes of an EventStorming session include a visual representation of the domain, identification of key events, entities, and processes, and a better understanding of the relationships and interactions within the domain.
+Relation to DDD: EventStorming is often used as a precursor to applying DDD principles. It helps in discovering and defining Bounded Contexts, identifying Aggregates, and understanding the flow of Domain Events. The insights gained from EventStorming sessions can inform the creation of a more refined and accurate domain model.
 
 ## Entities
-- **Definition**: Entities are domain objects that have a unique identity and are defined by their identity rather than their attributes. They represent the core concepts of the domain and are often long-lived and mutable.
+- **Definition**: Entities are domain objects that have a unique identity they are defined by rather than their attributes. They represent the core concepts of the domain and are often long-lived and mutable.
 - **Characteristics**: Entities have a lifecycle and can change their attributes over time while retaining their identity. They are responsible for encapsulating domain logic and behavior related to their identity.
 
 ## Value Objects
