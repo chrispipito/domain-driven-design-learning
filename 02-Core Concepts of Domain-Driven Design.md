@@ -16,21 +16,21 @@ Importance: In a complex domain, there are often multiple Bounded Contexts that 
 - Relationship Patterns: Context Mapping defines several common patterns for representing the relationships between Bounded Contexts. These patterns include:
   - **Partnership**: Two or more Bounded Contexts have a cooperative relationship and closely collaborate to fulfill a common goal. They share a subset of their domain models and align their development efforts.
   - **Shared Kernel**: Two or more Bounded Contexts share a small, common domain model that is essential for their interaction. The shared kernel is kept stable and evolves slowly with the agreement of all the involved contexts.
- - **Customer-Supplier**: One Bounded Context (the supplier) provides services or information to another Bounded Context (the customer). The customer's needs drive the development of the supplier's services.
- - **Conformist**: One Bounded Context conforms to the domain model of another Bounded Context. The conformist context uses the same language and concepts as the upstream context to avoid translation and maintain compatibility.
- - **Anticorruption Layer**: A Bounded Context uses an Anticorruption Layer to protect its own domain model from the influence of other contexts. The layer translates and adapts the external models and services to fit the internal domain model.
- - **Open Host Service**: A Bounded Context provides a set of open interfaces or services that other contexts can consume. The services are designed to be generic and reusable, allowing multiple contexts to integrate with them.
- - **Published Language**: A Bounded Context defines a published language, such as a domain-specific language (DSL) or a set of APIs, that other contexts can use to communicate with it. The published language encapsulates the context's domain model and provides a stable interface for integration.
+  - **Customer-Supplier**: One Bounded Context (the supplier) provides services or information to another Bounded Context (the customer). The customer's needs drive the development of the supplier's services.
+  - **Conformist**: One Bounded Context conforms to the domain model of another Bounded Context. The conformist context uses the same language and concepts as the upstream context to avoid translation and maintain compatibility.
+  - **Anticorruption Layer**: A Bounded Context uses an Anticorruption Layer to protect its own domain model from the influence of other contexts. The layer translates and adapts the external models and services to fit the internal domain model.
+  - **Open Host Service**: A Bounded Context provides a set of open interfaces or services that other contexts can consume. The services are designed to be generic and reusable, allowing multiple contexts to integrate with them.
+  - **Published Language**: A Bounded Context defines a published language, such as a domain-specific language (DSL) or a set of APIs, that other contexts can use to communicate with it. The published language encapsulates the context's domain model and provides a stable interface for integration.
 
 
-### Integration Strategies: Context Mapping also involves defining the integration strategies between Bounded Contexts. These strategies determine how the contexts exchange data and invoke each other's services. Common integration strategies include:
-- **REST APIs**: Bounded Contexts expose their services through REST APIs, allowing other contexts to consume them over HTTP.
-- **Messaging**: Bounded Contexts communicate asynchronously through messaging systems, such as message queues or event-driven architectures.
-- **Shared Database**: Bounded Contexts share a common database, but each context owns and manages its own schema and data.
-- **Remote Procedure Invocation**: Bounded Contexts invoke each other's services using remote procedure calls (RPC) or gRPC.
+- Integration Strategies: Context Mapping also involves defining the integration strategies between Bounded Contexts. These strategies determine how the contexts exchange data and invoke each other's services. Common integration strategies include:
+  - **REST APIs**: Bounded Contexts expose their services through REST APIs, allowing other contexts to consume them over HTTP.
+  - **Messaging**: Bounded Contexts communicate asynchronously through messaging systems, such as message queues or event-driven architectures.
+  - **Shared Database**: Bounded Contexts share a common database, but each context owns and manages its own schema and data.
+  - **Remote Procedure Invocation**: Bounded Contexts invoke each other's services using remote procedure calls (RPC) or gRPC.
 
 
-### Evolution and Governance: Context Mapping is an ongoing process that evolves along with the domain and the system. As the understanding of the domain deepens and the business requirements change, the relationships between Bounded Contexts may need to be updated. Context Mapping should be part of the overall governance process, ensuring that the interactions between contexts remain aligned with the business goals and the domain model.
+- Evolution and Governance: Context Mapping is an ongoing process that evolves along with the domain and the system. As the understanding of the domain deepens and the business requirements change, the relationships between Bounded Contexts may need to be updated. Context Mapping should be part of the overall governance process, ensuring that the interactions between contexts remain aligned with the business goals and the domain model.
 
 ## Event Storming 
 (Alberto Brandolini is the inventor and creator of EventStorming and the EventStorming Workshop. Paul Rayner is an expert and published author on EventStorming. You can find books, workshops and other resources provided by Alberto and Paul in the Resources section.)
