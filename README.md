@@ -13,12 +13,12 @@ DDD helps in building software systems that are:
 - Expressive and aligned with the business domain
 - Testable and robust
 
-Repository Structure
+## Repository Structure
 This repository aims to provide a comprehensive learning experience for those interested in mastering DDD. 
 
 This repository is organized into the following sections:
 
-- **Tutorials**:Tutorials: Step-by-step guides covering various DDD concepts and practices such as EventStorming, Context Mapping, Ubiquitous Language, Bounded Contexts, Entities, Value Objects, Aggregates, Domain Events, Domain Services, Repositories, and more along with code examples and explanations.
+- **Tutorials**: Step-by-step guides covering various DDD concepts and practices such as EventStorming, Context Mapping, Ubiquitous Language, Bounded Contexts, Entities, Value Objects, Aggregates, Domain Events, Domain Services, Repositories, and more along with code examples and explanations.
 - **Sample Projects**: Hands-on projects that demonstrate the implementation of DDD principles in different domains and complexity levels. As well as Complete sample applications demonstrating the implementation of DDD principles in different domains and technologies.
 - **Resources**: A curated list of books, articles, videos, and online courses for further learning and exploration.
 - **FAQ**: Frequently asked questions and pitfalls related to applying DDD in real-world scenarios.
