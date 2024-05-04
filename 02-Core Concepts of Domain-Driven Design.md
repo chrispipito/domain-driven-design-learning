@@ -13,7 +13,7 @@
 - **Definition**: Context Mapping is the process of identifying and defining the relationships and interactions between different Bounded Contexts within a domain. It helps in understanding how the contexts relate to each other, how they communicate, and how they collaborate to fulfill the overall business goals.
 Importance: In a complex domain, there are often multiple Bounded Contexts that need to interact and exchange information. Context Mapping helps in establishing a clear understanding of these relationships, enabling effective communication and integration between the contexts.
 
-- Relationship Patterns: Context Mapping defines several common patterns for representing the relationships between Bounded Contexts. These patterns include:
+- **Relationship Patterns**: Context Mapping defines several common patterns for representing the relationships between Bounded Contexts. These patterns include:
   - **Partnership**: Two or more Bounded Contexts have a cooperative relationship and closely collaborate to fulfill a common goal. They share a subset of their domain models and align their development efforts.
   - **Shared Kernel**: Two or more Bounded Contexts share a small, common domain model that is essential for their interaction. The shared kernel is kept stable and evolves slowly with the agreement of all the involved contexts.
   - **Customer-Supplier**: One Bounded Context (the supplier) provides services or information to another Bounded Context (the customer). The customer's needs drive the development of the supplier's services.
@@ -23,7 +23,7 @@ Importance: In a complex domain, there are often multiple Bounded Contexts that 
   - **Published Language**: A Bounded Context defines a published language, such as a domain-specific language (DSL) or a set of APIs, that other contexts can use to communicate with it. The published language encapsulates the context's domain model and provides a stable interface for integration.
 
 
-- Integration Strategies: Context Mapping also involves defining the integration strategies between Bounded Contexts. These strategies determine how the contexts exchange data and invoke each other's services. Common integration strategies include:
+- **Integration Strategies**: Context Mapping also involves defining the integration strategies between Bounded Contexts. These strategies determine how the contexts exchange data and invoke each other's services. Common integration strategies include:
   - **REST APIs**: Bounded Contexts expose their services through REST APIs, allowing other contexts to consume them over HTTP.
   - **Messaging**: Bounded Contexts communicate asynchronously through messaging systems, such as message queues or event-driven architectures.
   - **Shared Database**: Bounded Contexts share a common database, but each context owns and manages its own schema and data.
