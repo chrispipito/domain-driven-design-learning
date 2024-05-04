@@ -66,4 +66,4 @@ Relation to DDD: EventStorming is often used as a precursor to applying DDD prin
 - **Definition**: Domain Services are stateless operations that encapsulate domain logic that doesn't naturally fit within Entities or Value Objects. They provide a way to express complex domain behavior that spans multiple domain objects.
 - **Characteristics**: Domain Services are stateless and operate on domain objects. They encapsulate domain logic that involves coordination, orchestration, or complex calculations.
 
-These core concepts form the foundation of Domain-Driven Design and provide a common vocabulary for modeling and implementing complex business domains. In the next sections, we'll explore how these concepts are applied in practice and how they contribute to building maintainable and expressive software systems.
+These core concepts form the foundation of Domain-Driven Design and provide a common vocabulary for modeling and implementing complex business domains. Throughout the tutorials and examples, we'll explore how these concepts are applied in practice and how they contribute to building maintainable and expressive software systems.
