@@ -30,7 +30,7 @@ Importance: In a complex domain, there are often multiple Bounded Contexts that 
 - **Remote Procedure Invocation**: Bounded Contexts invoke each other's services using remote procedure calls (RPC) or gRPC.
 
 
-# Evolution and Governance: Context Mapping is an ongoing process that evolves along with the domain and the system. As the understanding of the domain deepens and the business requirements change, the relationships between Bounded Contexts may need to be updated. Context Mapping should be part of the overall governance process, ensuring that the interactions between contexts remain aligned with the business goals and the domain model.
+### Evolution and Governance: Context Mapping is an ongoing process that evolves along with the domain and the system. As the understanding of the domain deepens and the business requirements change, the relationships between Bounded Contexts may need to be updated. Context Mapping should be part of the overall governance process, ensuring that the interactions between contexts remain aligned with the business goals and the domain model.
 
 ## Event Storming 
 (Alberto Brandolini is the inventor and creator of EventStorming and the EventStorming Workshop. Paul Rayner is an expert and published author on EventStorming. You can find books, workshops and other resources provided by Alberto and Paul in the Resources section.)
