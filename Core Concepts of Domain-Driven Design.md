@@ -5,26 +5,22 @@
 - Importance: Ubiquitous Language helps bridge the communication gap between domain experts and developers. It ensures that everyone has a clear and consistent understanding of the domain concepts, reducing misunderstandings and ambiguity.
 - Collaboration: Creating a Ubiquitous Language involves close collaboration between domain experts and developers. It requires iterative refinement and continuous feedback to ensure that the language accurately represents the domain.
 
-Bounded Contexts
+## Bounded Contexts
+- Definition: A Bounded Context is a specific area of the domain that has its own Ubiquitous Language and a clear boundary. It represents a logical boundary within which a particular model is defined and applicable.
+- Understanding the problem domain: To identify Bounded Contexts, it's essential to understand the problem domain and the subdomains within it. Each subdomain may have its own set of concepts, rules, and relationships.
+- Context mapping: Context mapping is the process of identifying the relationships and interactions between different Bounded Contexts. It helps define how the contexts communicate and exchange information with each other.
 
-Definition: A Bounded Context is a specific area of the domain that has its own Ubiquitous Language and a clear boundary. It represents a logical boundary within which a particular model is defined and applicable.
-Understanding the problem domain: To identify Bounded Contexts, it's essential to understand the problem domain and the subdomains within it. Each subdomain may have its own set of concepts, rules, and relationships.
-Context mapping: Context mapping is the process of identifying the relationships and interactions between different Bounded Contexts. It helps define how the contexts communicate and exchange information with each other.
+## Entities
+- Definition: Entities are domain objects that have a unique identity and are defined by their identity rather than their attributes. They represent the core concepts of the domain and are often long-lived and mutable.
+- Characteristics: Entities have a lifecycle and can change their attributes over time while retaining their identity. They are responsible for encapsulating domain logic and behavior related to their identity.
 
-Entities
+## Value Objects
+- Definition: Value Objects are immutable domain objects that do not have a unique identity. They are defined by their attributes and are often used to describe the properties or characteristics of Entities.
+- Characteristics: Value Objects are immutable, meaning their state cannot be changed once they are created. They are typically small, simple objects that represent a concept or a value in the domain.
 
-Definition: Entities are domain objects that have a unique identity and are defined by their identity rather than their attributes. They represent the core concepts of the domain and are often long-lived and mutable.
-Characteristics: Entities have a lifecycle and can change their attributes over time while retaining their identity. They are responsible for encapsulating domain logic and behavior related to their identity.
-
-Value Objects
-
-Definition: Value Objects are immutable domain objects that do not have a unique identity. They are defined by their attributes and are often used to describe the properties or characteristics of Entities.
-Characteristics: Value Objects are immutable, meaning their state cannot be changed once they are created. They are typically small, simple objects that represent a concept or a value in the domain.
-
-Aggregates
-
-Definition: Aggregates are cluster of domain objects (Entities and Value Objects) that are treated as a single unit for data changes and consistency. They define a consistency boundary within which invariants are maintained.
-Aggregate Root: The Aggregate Root is the entry point and the only member of an Aggregate that can be directly accessed from outside the Aggregate. It is responsible for ensuring the integrity and consistency of the Aggregate.
+## Aggregates
+- Definition: Aggregates are cluster of domain objects (Entities and Value Objects) that are treated as a single unit for data changes and consistency. They define a consistency boundary within which invariants are maintained.
+- Aggregate Root: The Aggregate Root is the entry point and the only member of an Aggregate that can be directly accessed from outside the Aggregate. It is responsible for ensuring the integrity and consistency of the Aggregate.
 
 Domain Events
 
