@@ -23,7 +23,7 @@ Importance: In a complex domain, there are often multiple Bounded Contexts that 
 - **Published Language**: A Bounded Context defines a published language, such as a domain-specific language (DSL) or a set of APIs, that other contexts can use to communicate with it. The published language encapsulates the context's domain model and provides a stable interface for integration.
 
 
-#### Integration Strategies: Context Mapping also involves defining the integration strategies between Bounded Contexts. These strategies determine how the contexts exchange data and invoke each other's services. Common integration strategies include:
+### Integration Strategies: Context Mapping also involves defining the integration strategies between Bounded Contexts. These strategies determine how the contexts exchange data and invoke each other's services. Common integration strategies include:
 - **REST APIs**: Bounded Contexts expose their services through REST APIs, allowing other contexts to consume them over HTTP.
 - **Messaging**: Bounded Contexts communicate asynchronously through messaging systems, such as message queues or event-driven architectures.
 - **Shared Database**: Bounded Contexts share a common database, but each context owns and manages its own schema and data.
