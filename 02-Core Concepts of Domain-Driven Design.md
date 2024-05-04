@@ -14,7 +14,7 @@
 Importance: In a complex domain, there are often multiple Bounded Contexts that need to interact and exchange information. Context Mapping helps in establishing a clear understanding of these relationships, enabling effective communication and integration between the contexts.
 
 ### Relationship Patterns: Context Mapping defines several common patterns for representing the relationships between Bounded Contexts. These patterns include:
- - **Partnership**: Two or more Bounded Contexts have a cooperative relationship and closely collaborate to fulfill a common goal. They share a subset of their domain models and align their development efforts.
+  - **Partnership**: Two or more Bounded Contexts have a cooperative relationship and closely collaborate to fulfill a common goal. They share a subset of their domain models and align their development efforts.
 - **Shared Kernel**: Two or more Bounded Contexts share a small, common domain model that is essential for their interaction. The shared kernel is kept stable and evolves slowly with the agreement of all the involved contexts.
 - **Customer-Supplier**: One Bounded Context (the supplier) provides services or information to another Bounded Context (the customer). The customer's needs drive the development of the supplier's services.
 - **Conformist**: One Bounded Context conforms to the domain model of another Bounded Context. The conformist context uses the same language and concepts as the upstream context to avoid translation and maintain compatibility.
