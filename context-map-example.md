@@ -9,53 +9,7 @@ Let's take a look at an example context map for a would be online retail system.
 - **Customer**: Manages customer information, including profile data, addresses, and preferences.
 
 
-+-----------------------+                   +-----------------------+
-|                       |                   |                       |
-|  Order Management     |◀────────────────▶|  Inventory Management |
-|  Bounded Context      |                   |  Bounded Context      |
-|     Downstream        |                   |     Upstream          |
-|                       |   Partnership     |                       |
-+-----------------------+                   +-----------------------+
-           ▲                                 ▲
-           │ Places Order                    │
-           │ Reserves Stock                  │ Upstream
-           │                                 │
-           ▼                                 │
-+-----------------------+                    │
-|                       |                    │
-|  Shipping             |                    │
-|  Bounded Context      |                    │
-|     Downstream        |                    │
-|    Conformist         |                    |
-+-----------------------+                    │
-           ▲                                 │
-           │                                 │
-Downstream │ Ships Order                     │ Provides Product Data
-           │                                 │
-           │                        +-----------------------+
-           │                        |                       |
-           │                        |  Catalog              |
-           │                        |  Bounded Context      |
-           │                        |     Upstream          |
-           │                        |    Open Host Service  |
-           │                        +-----------------------+
-           │                                 ▲
-           │                                 │
-           │                                 │ Provides Customer Data
-           │                                 │
-+-----------------------+         +-----------------------+
-|                       |         |                       |
-|  Billing              |         |  Customer             |
-|  Bounded Context      |         |  Bounded Context      |
-|     Downstream        |         |     Upstream          |
-|     Conformist        |         |   Shared Kernel       |
-+-----------------------+         +-----------------------+
-           ▲                                 ▲
-           │                                 │
-Downstream │ Generates Invoice               │ Upstream
-           │ Processes Payment               │
-           │                                 │
-            ─────────────────────────────────
+
 
 
 **In this context map, the arrows indicate the direction of influence and the flow of information between the Bounded Contexts.** 
