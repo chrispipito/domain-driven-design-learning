@@ -10,7 +10,8 @@ Let's take a look at an example context map for a would be online retail system.
 - **Billing**: Handles the billing process, including invoicing, payment processing, and refunds.
 - **Customer**: Manages customer information, including profile data, addresses, and preferences.
 
-![image](https://github.com/chrispipito/domain-driven-design-learning/assets/90569206/886d6f6e-8bc9-4bb2-bf9e-b2f02bf3bf97)
+![image](https://github.com/chrispipito/domain-driven-design-learning/assets/90569206/fa0b4e2d-df88-4761-b7da-67527d326018)
+
 
 
 
