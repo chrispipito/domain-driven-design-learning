@@ -1,4 +1,4 @@
-# Under Construction...
+# Context Mapping Example
 
 ### Example Context Map
 Let's take a look at an example context map for a would be online retail system. In this system, we have the following Bounded Contexts:
