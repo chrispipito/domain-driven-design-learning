@@ -1,6 +1,6 @@
-# Domain-Driven Design Practice
+# Domain-Driven Design Learning
 
-Welcome to the Domain-Driven Design Practice repository! This resource is dedicated to helping people learn and apply the principles and patterns of Domain-Driven Design (DDD) effectively. Whether you're new to DDD or looking to deepen your understanding, you'll find a collection of tutorials, sample projects, and resources to help guide you.
+Welcome to the Domain-Driven Design Learning and Practice repository! This resource is dedicated to helping people learn and apply the principles and patterns of Domain-Driven Design (DDD) effectively. Whether you're new to DDD or looking to deepen your understanding, you'll find a collection of tutorials, sample projects, and resources to help guide you.
 
 ## What is Domain-Driven Design?
 
