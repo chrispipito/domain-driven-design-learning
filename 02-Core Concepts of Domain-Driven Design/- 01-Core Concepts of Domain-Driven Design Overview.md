@@ -6,7 +6,7 @@
 - **Collaboration**: Creating a Ubiquitous Language involves close collaboration between domain and technical experts. It requires iterative refinement and continuous feedback to make sure that the language accurately represents the domain. The first occurrence of this collaboration is often in the form of an EventStorming session. (See EventStorming below)
 
 ## Bounded Contexts
-- **Definition**: A Bounded Context is a specific area of the domain that has its own Ubiquitous Language and a clear boundary. It represents a logical boundary within which a particular model is defined and applicable.
+- **Definition**: A specific area of the domain that has its own Ubiquitous Language and a clear boundary. It represents a logical boundary within which a particular model is defined and applicable.
 - **Understanding the problem domain**: To identify Bounded Contexts, it's essential to understand the problem domain and the subdomains within it. Each subdomain may have its own set of concepts, rules, and relationships.
 
 ## Context Mapping
