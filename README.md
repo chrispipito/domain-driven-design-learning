@@ -21,7 +21,7 @@ This repository aims to provide a comprehensive learning experience for those in
 This repository is organized into the following sections:
 
 - **Tutorials**: Step-by-step guides covering various DDD concepts and practices including EventStorming, Context Mapping, Ubiquitous Language, Bounded Contexts, Entities, Value Objects, Aggregates, Domain Events, Domain Services, Repositories, and more along with code examples and explanations.
-- **Sample Projects**: Hands-on products/projects that demonstrate the implementation of DDD in different domains and complexity levels. As well as complete sample applications demonstrating the implementation of DDD principles in different domains and technologies.
+- **Sample Products/Projects**: Hands-on products/projects that demonstrate the implementation of DDD in different domains and complexity levels. As well as complete sample applications demonstrating the implementation of DDD principles in different domains and technologies.
 - **Resources**: A curated list of books, articles, videos, and online courses for further learning and exploration.
 - **FAQ**: Frequently asked questions and pitfalls related to applying DDD in real-world scenarios.
 - **Contribution Guidelines**: Instructions on how to contribute new tutorials, sample projects, or improvements to the existing content.
