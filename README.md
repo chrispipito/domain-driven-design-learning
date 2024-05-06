@@ -32,7 +32,7 @@ Feel free to clone or fork this repository to your own GitHub account and experi
 
 ## Contributing
 
-Contributions are welcomed from the community. If you would like to add new tutorials, sample projects, or to suggest improvements, please refer to the process for contributing in the contributions section.
+Contributions are welcomed from the community. If you would like to add new tutorials, sample products/projects, or to suggest improvements, please refer to the process for contributing in the contributions section.
 
 ## Feedback and Support
 
