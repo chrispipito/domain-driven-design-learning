@@ -26,7 +26,7 @@ Inside you will find:
 
 ## Getting Started
 
-Begin with exploring the contents of the repository. Each tutorial and project comes with its own README file providing more details and instructions.
+Begin with exploring the contents of the repository. Each tutorial and product/project comes with its own README file providing more details and instructions.
 
 Feel free to clone or fork this repository to your own GitHub account and experiment with the code. Try implementing the sample projects to reinforce your understanding and gain practical experience. 
 
