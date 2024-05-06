@@ -1,7 +1,7 @@
 # Core Concepts of Domain-Driven Design
 
 ## Ubiquitous Language
-- **Definition**: Ubiquitous Language is a shared language that is developed collaboratively by domain and technical experts. It is used consistently throughout the creation and modification of a software product, in conversations, documentation, and code.
+- **Definition**: Ubiquitous Language is a shared language that is developed collaboratively by domain and technical experts. It is used consistently throughout the creation and modification of a software product in conversations, documentation, and code.
 - **Importance**: Ubiquitous Language helps bridge the communication gap between domain experts and techical experts. It ensures that everyone has a clear and consistent understanding of the domain concepts, reducing misunderstandings and ambiguity.
 - **Collaboration**: Creating a Ubiquitous Language involves close collaboration between domain experts and technical experts. It requires iterative refinement and continuous feedback to ensure that the language accurately represents the domain. The first occurrence of this collaboration is often in the form of an EventStorming session. (See EventStorming below)
 
