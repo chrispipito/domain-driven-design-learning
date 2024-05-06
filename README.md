@@ -28,16 +28,16 @@ This repository is organized into the following sections:
 
 ## Getting Started
 
-To get started, explore the repository's contents, tutorials and sample projects that interest you. Each tutorial and project comes with its own README file providing more details and instructions.
+Begin with exploring the contents of the repository. Each tutorial and project comes with its own README file providing more details and instructions.
 
 Feel free to clone or fork this repository to your own GitHub account and experiment with the code. Try implementing the sample projects to reinforce your understanding and gain practical experience. 
 
 ## Contributing
 
-We welcome contributions from the community to make this repository even more valuable. Whether you want to add new tutorials, sample projects, or suggest improvements, please follow the contribution guidelines provided.
+Contributions are welcomed from the community. If you would like to add new tutorials, sample projects, or to suggest improvements, please refer to the process for contributing in the contributions section.
 
 ## Feedback and Support
 
-If you have any questions, suggestions, or need further assistance, feel free to open an issue or join the discussions section. We're here to support your learning and help you become proficient in Domain-Driven Design.
+For any questions or if you want to look at your real world work, please reach out to the creator of this repository (Chris Pipito) to set something up.
 
-Let's embark on this journey together and unlock the power of DDD in building robust and maintainable software systems!
+Ok here we go, hopefully you find this repository helpful. The goal ultimately is to give you some practical practice and ways to apply Domain-Driven Design to your work. 
