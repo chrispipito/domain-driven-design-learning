@@ -4,11 +4,11 @@ Domain-Driven Design (DDD) is a software development approach focused on underst
 
 ## Brief History
 
-The concept of Domain-Driven Design was introduced by Eric Evans in his book, "Domain-Driven Design: Tackling Complexity in the Heart of Software," published in 2003. The book was based on Evans' experiences working on complex software products/projects and his observations of successful practices in the industry.
+Domain-Driven Design was introduced by Eric Evans in his book (The Blue Book), "Domain-Driven Design: Tackling Complexity in the Heart of Software," in 2003.
 
-After recognizing that many software projects struggled with managing complexity, especially when dealing with intricate business domains, Evans also noticed that products/projects often suffered from a disconnect between the software implementation and the actual business domain, leading to software that was difficult to understand, maintain, and evolve.
+Recognizing that many software products/projects struggle with complexity when dealing with intricate business domains, these products/projects often suffered from a disconnect between the software implementation and the actual business domain, leading to software that was difficult to understand, maintain, and evolve.
 
-To address these challenges, Evans proposed a new approach that put the domain at the center of the software development process. He emphasized the importance of understanding the business domain, collaborating closely with domain experts, and creating a rich, expressive model that captures the essential concepts, relationships, and rules of the domain.
+To address these challenges, The Blue Book proposed that we put the domain at the center of the software creation process. Emphasizing the importance of understanding the business domain, close collaboration between tehcnical and domain experts to create a rich and expressive model that captures the essential concepts, relationships, and rules of the domain.
 
 ## Motivation
 
