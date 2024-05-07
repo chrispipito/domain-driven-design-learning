@@ -17,6 +17,7 @@
 These patterns include:
   - **Partnership**: Bounded Contexts that have a cooperative relationship and collaborate to fulfill a goal. A subset of their domain models are shared and align their development efforts.
   - **Shared Kernel**: Bounded Contexts that share a small common domain model that is essential for their interaction. The shared kernel is kept stable and must evolve slowly with the agreement of all bounded contexts involved.
+  - **Rules**:
       1. Keep the kernel small
       2. Have an explicit boundary
       3. Have a clear integration process within the shared kernel
