@@ -21,6 +21,7 @@ These patterns include:
     1. Keep the kernel small
     2. Have an explicit boundary
     3. Have a clear integration process within the shared kernel
+ 
   - **Customer-Supplier**: One Bounded Context (the supplier) provides services and/or information to another Bounded Context (the customer). The customer's needs drive the development of the supplier's services.
   - **Conformist**: One Bounded Context conforms to the domain model of another Bounded Context. The conformist context uses the same language and concepts as the upstream bounded context to avoid translation and maintain compatibility.
   - **Anticorruption Layer**: A Bounded Context uses an Anticorruption Layer to protect its own domain model from the influence of other contexts. The layer translates and adapts the external models and services to fit the internal domain model.
