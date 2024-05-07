@@ -19,7 +19,6 @@ These patterns include:
   - **Shared Kernel**: Bounded Contexts that share a small common domain model that is essential for their interaction. The shared kernel is kept stable and must evolve slowly with the agreement of all bounded contexts involved.
 
 - **Rules**:
-
     1. Keep the kernel small
     2. Have an explicit boundary
     3. Have a clear integration process within the shared kernel
