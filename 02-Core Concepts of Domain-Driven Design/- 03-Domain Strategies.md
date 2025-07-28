@@ -16,3 +16,6 @@ Distinguishing the different domain types in your system guides the selection of
 - **Definition**: Not specific or unique aspects of the business.
 - **Importance**: These domains do not require any custom development, are not part of the unique value or critical aspects that differentiate the business or provide a competitive advantage.
 - **Strategy**: Avoid opportunity costs and purchase off-the-shelf software. If this is not an option, make sure competent people are building this software, but know that it is not where the investment should be made.
+
+## Important Note:
+- **Learning**: For all domain strategies it is critically important to priortize learning and upskilling. "The more we work at what we do, the less capable we become. Make time for improving capability." - Woody Zuill
